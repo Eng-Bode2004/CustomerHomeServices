@@ -1,5 +1,5 @@
 const UserAddress = require('../Models/UserAddressModel');
-const StoreModel = require('../models/Shop');
+const StoreModel = require('../Models/Shop');
 require('../Models/StoreAddressModel'); // ✅ Import the model to register it
 class CustomerHomeServices {
     async getStoresInCategoryByUserState(categoryId, userId) {
